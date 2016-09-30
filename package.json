@@ -1,0 +1,30 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ADS2-20162/frupeu.git"
+  },
+  "keywords": [
+    "angular",
+    "material",
+    "django",
+    "rest"
+  ],
+  "author": "alumnos ads2 upeu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ADS2-20162/frupeu/issues"
+  },
+  "homepage": "https://github.com/ADS2-20162/frupeu#readme"
+}
