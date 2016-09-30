@@ -1,1 +1,24 @@
-hola
+<!doctype html>
+<html ng-app='app'>
+<head> </head>
+<body>
+    <div ng-controller='TestCtrl'>
+        <label>Name:</label>
+        <input type="text" ng-model="yourName" placeholder="Enter a name here">
+        <hr>
+        <h1>Hello {{yourName}}!</h1>
+        <input type="button" ng-click="saludo()">
+    </div>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript">
+    angular.module('app', [])
+    // descr de TestCtrl
+    .controller('TestCtrl', function($scope) {
+        $scope.saludo = function() {
+            console.log("Hola ng");
+        }
+    });
+    </script>
+</body>
+
+</html>
